@@ -1,8 +1,9 @@
 
-const DynamicProductPage = () => {
+const DynamicProductPage = ({ params }) => {
+    const { productId } = params
     return (
         <div>
-            dynamic product page
+            dynamic product page {productId}
         </div>
     );
 };
