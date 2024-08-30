@@ -1,5 +1,5 @@
 
-const CatchAllRoutes = () => {
+const CatchAllRoutes = ({ }) => {
     return (
         <div>
             catch all route
