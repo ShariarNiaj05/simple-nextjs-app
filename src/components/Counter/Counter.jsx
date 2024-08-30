@@ -7,8 +7,15 @@ const Counter = () => {
   return (
     <div>
       <h1>Counter {counter}</h1>
-      <button onClick={() => setCounter(counter + 1)}>Increase</button>
-      <button onClick={() => setCounter(counter - 1)}>Decrease</button>
+      <button
+        className="btn btn-accent"
+        onClick={() => setCounter(counter + 1)}
+      >
+        Increase
+      </button>
+      <button className="btn btn-ghost" onClick={() => setCounter(counter - 1)}>
+        Decrease
+      </button>
     </div>
   );
 };
