@@ -10,7 +10,7 @@ const HomePage = async () => {
     }
   })
   const shoes = await res.json()
-  // throw new Error("error")
+  // throw new Error("error from home page")
 
   return (
     <div>
