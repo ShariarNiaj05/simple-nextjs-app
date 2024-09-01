@@ -3,7 +3,8 @@ import a from "../../assets/a.jpg"
 import b from "../../assets/b.jpg"
 import c from "../../assets/c.jpg"
 import d from "../../assets/d.jpg"
-import e from "../../assets/e.jpg"
+// import e from "../../assets/e.jpg"  // relative path
+import e from "@/assets/e.jpg" // absolute path
 const GalleryPage = () => {
     return (
         <div>
