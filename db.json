@@ -1,13 +1,46 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-  ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "shoes": [
+    {
+      "id": 1,
+      "title": "Air Max 270",
+      "description": "A stylish and comfortable running shoe with maximum cushioning.",
+      "price": 150.0,
+      "shoes": true
+    },
+    {
+      "id": 2,
+      "title": "UltraBoost 21",
+      "description": "High-performance running shoes designed for long-distance comfort.",
+      "price": 180.0,
+      "shoes": true
+    },
+    {
+      "id": 3,
+      "title": "Classic Leather",
+      "description": "A timeless leather sneaker that offers both style and durability.",
+      "price": 90.0,
+      "shoes": true
+    },
+    {
+      "id": 4,
+      "title": "Chuck Taylor All Star",
+      "description": "Iconic canvas sneakers perfect for casual wear.",
+      "price": 60.0,
+      "shoes": true
+    },
+    {
+      "id": 5,
+      "title": "Pegasus Trail 3",
+      "description": "Trail running shoes built to handle rugged terrain.",
+      "price": 130.0,
+      "shoes": true
+    },
+    {
+      "id": 6,
+      "title": "Gel-Kayano 28",
+      "description": "Stability running shoes designed for overpronators.",
+      "price": 160.0,
+      "shoes": true
+    }
+  ]
 }
