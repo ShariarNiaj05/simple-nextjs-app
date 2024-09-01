@@ -4,9 +4,7 @@ export const metadata = {
   description: "Home page description"
 }
 const HomePage = async () => {
-  const res = await fetch("http://localhost:5000/shoes", {
-    cache: "force-cache"
-  })
+  const res = await fetch("http://localhost:5000/shoes")
   const shoes = await res.json()
   return (
     <div>
