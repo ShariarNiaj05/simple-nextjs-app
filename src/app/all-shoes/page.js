@@ -4,6 +4,7 @@ const AllShoesPage = async () => {
         cache: "no-store"
     })
     const shoes = await res.json()
+
     return (
         <div>
             <h1>All Shoes</h1>

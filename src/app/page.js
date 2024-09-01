@@ -10,6 +10,8 @@ const HomePage = async () => {
     }
   })
   const shoes = await res.json()
+  // throw new Error("error")
+
   return (
     <div>
       <h2 className="text-4xl font-bold" >Home</h2>
