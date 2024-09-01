@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Air Max 270",
       "description": "A stylish and comfortable running shoe with maximum cushioning.",
-      "price": 1511111.0,
+      "price": 10.0,
       "shoes": true
     },
     {
@@ -39,7 +39,7 @@
       "id": 6,
       "title": "Gel-Kayano 28",
       "description": "Stability running shoes designed for overpronators.",
-      "price": 9999.0,
+      "price": 99000.0,
       "shoes": true
     }
   ]
