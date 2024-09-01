@@ -4,7 +4,11 @@ export const metadata = {
   description: "Home page description"
 }
 const HomePage = async () => {
-  const res = await fetch("http://localhost:5000/shoes")
+  const res = await fetch("http://localhost:5000/shoes", {
+    next: {
+      revalidate: 5
+    }
+  })
   const shoes = await res.json()
   return (
     <div>
