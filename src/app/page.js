@@ -25,8 +25,8 @@ const HomePage = async () => {
               </h2>
               <p> {shoe.description}</p>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">Fashion</div>
-                <div className="badge badge-outline">Products</div>
+                <button className="btn btn-outline btn-primary">Buy Now</button>
+                <button className="btn btn-outline btn-primary">Details</button>
               </div>
             </div>
           </div>)
