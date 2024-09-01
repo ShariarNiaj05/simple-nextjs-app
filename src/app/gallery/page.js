@@ -14,6 +14,7 @@ const GalleryPage = () => {
 
             <h2>Next js image component</h2>
             <Image src={"https://nextjs.org/api/docs-og?title=API%20Reference:%20next.config.js%20Options"} alt="next image" width={500} height={500} />
+            <h2>Next js Local image component</h2>
             <Image src={a} alt="next image" width={500} height={500} />
             <Image src={b} alt="next image" width={500} height={500} />
             <Image src={c} alt="next image" width={500} height={500} />
