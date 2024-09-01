@@ -1,5 +1,7 @@
 
-const AllShoes = () => {
+const AllShoesPage = async () => {
+    const res = await fetch("http://localhost:5000/shoes")
+    const shoes = (await res).json()
     return (
         <div>
             AllShoes
@@ -7,4 +9,4 @@ const AllShoes = () => {
     );
 };
 
-export default AllShoes;
+export default AllShoesPage;
