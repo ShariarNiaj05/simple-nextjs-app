@@ -6,6 +6,7 @@ const Counter = () => {
   console.log(counter);
   return (
     <div>
+      {/* counter app */}
       <h1>Counter {counter}</h1>
       <button
         className="btn btn-accent"
